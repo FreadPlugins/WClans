@@ -1,0 +1,23 @@
+# Плагин разработан специально для live:nikorasuurufudu
+# Скайп разработчика: jampire-h
+# Окончание поддержки плагина: 8 апреля 2016
+language: ru
+database: sqlite # mysql or sqlite
+mysql:
+    host: localhost
+    port: 3306
+    database: minecraft
+    username: root
+    password: admin
+settings:
+    warm: 10
+    max_symbols: 10
+    min_symbols: 3
+    default_max: 20
+    max_upgrade: 30
+    create_cost: 1000 # стоимость создания клана
+    change_cost: 1000 # стоимость смены названия
+    upgrade_cost: 1000 # стоимость улучшения клана
+    clan_regex: '[a-zA-Z0-9]*'
+    kill_reward: 100 # награда за убийство игрока из клана врага
+    kill_cooldown: 60 # время ожидания между получением наград за убийство

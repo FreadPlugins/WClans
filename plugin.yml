@@ -1,0 +1,89 @@
+name: ALiteClans
+main: ru.jampire.wclans.Main
+author: Dyooxa
+version: 2.0
+depend: [WorldGuard, WorldEdit]
+commands:
+    clan:
+        aliases: [c, liteclans]
+    cc:
+        aliases: [clanchat]
+permissions:
+    LiteClans.warm.ignore:
+        default: op
+    LiteClans.user:
+        default: op
+        children:
+            LiteClans.create: true
+            LiteClans.disband: true
+            LiteClans.msg: true
+            LiteClans.info: true
+            LiteClans.addmoder: true
+            LiteClans.delmoder: true
+            LiteClans.invite: true
+            LiteClans.kick: true
+            LiteClans.list: true
+            LiteClans.leave: true
+            LiteClans.home: true
+            LiteClans.removehome: true
+            LiteClans.sethome: true
+            LiteClans.leader: true
+            LiteClans.top: true
+            LiteClans.upgrade: true
+            LiteClans.pvp: true
+            LiteClans.tag: true
+            LiteClans.war: true
+            LiteClans.ally: true
+            LiteClans.stopwar: true
+            LiteClans.stopally: true
+    LiteClans.admin:
+        default: op
+    LiteClans.free.create:
+        default: op
+    LiteClans.reload:
+        default: op
+    LiteClans.create:
+        default: op
+    LiteClans.disband:
+        default: op
+    LiteClans.msg:
+        default: op
+    LiteClans.info:
+        default: op
+    LiteClans.addmoder:
+        default: op
+    LiteClans.delmoder:
+        default: op
+    LiteClans.invite:
+        default: op
+    LiteClans.tag:
+        default: op
+    LiteClans.kick:
+        default: op
+    LiteClans.list:
+        default: op
+    LiteClans.leave:
+        default: op
+    LiteClans.home:
+        default: op
+    LiteClans.removehome:
+        default: op
+    LiteClans.sethome:
+        default: op
+    LiteClans.leader:
+        default: op
+    LiteClans.top:
+        default: op
+    LiteClans.upgrade:
+        default: op
+    LiteClans.pvp:
+        default: op
+    LiteClans.war:
+        default: op
+    LiteClans.ally:
+        default: op
+    LiteClans.stopwar:
+        default: op
+    LiteClans.stopally:
+        default: op
+    
